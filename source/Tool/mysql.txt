@@ -1,0 +1,21 @@
+
+insert comment
+"INSERT INTO `tiebaspider`.`comment` (`CommentID`, `UserID`, `PostPageID`, `Content`, `UserLeveL`, `Time`) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format()
+insert postbar
+"INSERT INTO `tiebaspider`.`postbar` (`PostBarName`, `PostpageNum`, `FollowNum`) VALUES ('{}', '{}', '{}');".format()
+insert postpage
+"INSERT INTO `tiebaspider`.`postpage` (`PostPageID`, `PostPageTitle`, `UserID`, `PostBarID`, `ReplyNum`, `LastRTime`) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format()
+insert user
+"INSERT INTO `tiebaspider`.`user` (`UserID`, `UserName`) VALUES ('{}', '{}');".format()
+
+update user
+"UPDATE `tiebaspider`.`user` SET `UserID` = '{}', `UserName` = '{}' WHERE (`UserID` = '{}');".format()
+
+update comment
+"UPDATE `tiebaspider`.`comment` SET `CommentID` = '{}', `UserID` = '{}', `Content` = '{}', `UserLeveL` = '{}', `Time` = '{}' WHERE (`CommentID` = '{}');"
+
+update postbar
+"UPDATE `tiebaspider`.`postbar` SET `PostpageNum` = '{}', `FollowNum` = '{}' WHERE (`PostBarName` = '{}');"
+
+update postpage
+"UPDATE `tiebaspider`.`postpage` SET `ReplyNum` = '{}', `LastRTime` = '{}' WHERE (`PostPageID` = '{}');"

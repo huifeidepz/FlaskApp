@@ -1,0 +1,12 @@
+requests~=2.24.0
+lxml~=4.6.1
+six~=1.15.0
+beautifulsoup4~=4.9.3
+PyMySQL~=1.0.2
+DBUtils~=2.0
+Scrapy~=2.4.1
+itemadapter~=0.2.0
+snownlp~=0.12.3
+Flask~=1.1.2
+redis~=3.5.3
+setuptools~=53.0.0
